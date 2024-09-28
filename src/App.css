@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #7ee4e4;
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1 {
+    color: #333;
+  }
+  
+  .app-container {
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: #cdf1ae;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(15, 15, 15, 0.1);
+  }
+  
+  input[type="text"] {
+    padding: 10px;
+    width: 70%;
+    border: 1px solid #803434;
+    border-radius: 15px;
+    font-size: 16px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    margin-left: 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  button:hover {
+    background-color: #218838;
+  }
+  
+  ul {
+    margin-top: 20px;
+    padding: 0;
+  }
+  
+  li {
+    display: flex;
+    justify-content: space-between;
+    background-color: #cf9494;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  li.completed {
+    text-decoration: line-through;
+    color: #888;
+  }
+  
+  .filters {
+    margin-top: 20px;
+  }
+  
+  .filters button {
+    padding: 5px 15px;
+    margin: 0 5px;
+    background-color: #d4ea0a;
+    color: rgb(6, 0, 0);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+  }
+  
+  .filters button:hover {
+    background-color: #1369c4;
+  }
+  
+  li button {
+    background-color: #dc3545;
+  }
+  
+  li button:hover {
+    background-color: #c82333;
+  }
+  
